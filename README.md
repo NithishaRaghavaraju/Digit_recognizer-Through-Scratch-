@@ -16,4 +16,5 @@ b - bias have a dimension of (size of layer 1,1)
 Using the given input X, weights W, and biases b, for every layer we compute a linear combination of inputs and weights (Z)and then apply activation function to linear combination (A). At the final layer, we compute f(A(l-1)) which could be a sigmoid (for binary classification problem), softmax (for multi-class classification problem), and this gives the prediction y^.
 ### Backward Propagation
  In backpropagation, we find the gradients of the loss function, which is a function of y and y_hat, and gradients wrt A, W, and b called dA, dW, and db. By using these gradients, we update the values of the parameters from the last layer to the first layer.
+
 ![MLP-network-architecture-to-solve-the-digit-recognition-problem](https://user-images.githubusercontent.com/89447019/182604270-c344f0a8-a459-4d5d-9612-d8cd19ab0158.png)
