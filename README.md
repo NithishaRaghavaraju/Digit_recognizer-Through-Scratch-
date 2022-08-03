@@ -1,1 +1,1 @@
-# Digit_recognizer-Through-Scratch-
+# Digit_recognizer(Through-Scratch)
